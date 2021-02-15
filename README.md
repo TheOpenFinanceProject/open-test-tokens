@@ -34,3 +34,4 @@ Summary
 > Final cost:          0.00799594 ETH
 
 
+To Reiceve any test token, send 0x1249c58b as transaction data to the addresses mentionned above, it will mint some for you ! 
