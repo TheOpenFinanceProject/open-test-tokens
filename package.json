@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@harmony-js/core": "^0.1.57",
+    "@openzeppelin/contracts": "^2.5.0",
+    "dotenv": "^8.2.0",
+    "tslib": "^2.1.0"
+  },
+  "name": "openfitesttokens",
+  "version": "1.0.0",
+  "description": "Test tokens for anyone to use; by The Open Finance Project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOpenFinanceProject/open-test-tokens.git"
+  },
+  "keywords": [
+    "harmony"
+  ],
+  "author": "TheOpenFinanceProject",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheOpenFinanceProject/open-test-tokens/issues"
+  },
+  "homepage": "https://github.com/TheOpenFinanceProject/open-test-tokens#readme"
+}
