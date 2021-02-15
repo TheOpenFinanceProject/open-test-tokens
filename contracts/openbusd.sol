@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract OpenBUSD is ERC20 {
     uint256 totalSupply_ = 100000000000000000000;
-    string public constant name = "OpenBUSD;
+    string public constant name = "OpenBUSD";
 	string public constant symbol = "OnBUSD";
 	uint8 public constant decimals = 18;
 

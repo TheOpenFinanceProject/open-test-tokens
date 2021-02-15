@@ -11,14 +11,27 @@ const OpenBAT = artifacts.require("OpenBAT");
 
 
 module.exports = async function (deployer) {
-  deployer.deploy(Migrations);
-
-  await deployer.deploy(UniswapV2ERC20)
-
-
-  
-  .then(
-  	async function () {
- 		console.log(`   address public UniswapV2ERC20 = ${UniswapV2ERC20.address}\n`);
-  	})
+	await deployer.deploy(OpenAAVE)
+	await deployer.deploy(OpenBUSD)
+	await deployer.deploy(OpenCOMPOUND)
+	await deployer.deploy(OpenLINK)
+	await deployer.deploy(OpenRUPIAH)
+	await deployer.deploy(OpenUNI)
+	await deployer.deploy(OpenUSDT)
+	await deployer.deploy(OpenWBTC)
+	await deployer.deploy(OpenWETH)
+	await deployer.deploy(OpenBAT)
+	.then(
+		async function () {
+			console.log(`   Test Token OpenAAVE = ${OpenAAVE.address}\n`);
+			console.log(`   Test Token OpenBUSD = ${OpenBUSD.address}\n`);
+			console.log(`   Test Token OpenCOMPOUND = ${OpenCOMPOUND.address}\n`);
+			console.log(`   Test Token OpenLINK = ${OpenLINK.address}\n`);
+			console.log(`   Test Token OpenRUPIAH = ${OpenRUPIAH.address}\n`);
+			console.log(`   Test Token OpenUNI = ${OpenUNI.address}\n`);
+			console.log(`   Test Token OpenUSDT = ${OpenUSDT.address}\n`);
+			console.log(`   Test Token OpenWBTC = ${OpenWBTC.address}\n`);
+			console.log(`   Test Token OpenWETH = ${OpenWETH.address}\n`);
+			console.log(`   Test Token OpenBAT = ${OpenBAT.address}\n`);
+		})
 };

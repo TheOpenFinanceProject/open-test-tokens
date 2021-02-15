@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract OpenUNI is ERC20 {
     uint256 totalSupply_ = 100000000000000000000;
-    string public constant name = "OpenUNI;
+    string public constant name = "OpenUNI";
 	string public constant symbol = "OnUNI";
 	uint8 public constant decimals = 18;
 

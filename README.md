@@ -1,1 +1,27 @@
 # open-test-tokens
+
+# Deployed on testnet : 
+
+Test Token OpenAAVE = 0xF2c4b17B8e158f104eDF169b6D34960397143A91
+
+Test Token OpenBUSD = 0xA93803CfCe1E1Bc82b241F26FCDd393F1A91f152
+
+Test Token OpenCOMPOUND = 0xB133F17dd1518666d8fE5fAC2bF3F53a500b1D35
+
+Test Token OpenLINK = 0x5A1957200496f859D8A03EbC61DF5B79349C0Af3
+
+Test Token OpenRUPIAH = 0xf46fBDeaA88a38ef24059900B76Bff04f8cd1534
+
+Test Token OpenUNI = 0xaCF2c56F750f7d613f404D823595dCec3780b739
+
+Test Token OpenUSDT = 0xAdd6A8B85Bf1DaBd484bc28a69ABf4e5e93f029f
+
+Test Token OpenWBTC = 0x905CB5E2B1A37aC6cE4543f44cbAcd23c29680Dc
+
+Test Token OpenWETH = 0x7B7a6bde481A41E9aB687337B4D1304569cC84b3
+
+Test Token OpenBAT = 0xcfBECFde47a7bD9B6e42Cb7cA3640E77AA2490fd
+
+> Saving artifacts
+-------------------------------------
+> Total cost:         0.008220614 ETH
