@@ -24,11 +24,12 @@ contract OpenWETH is ERC20 {
     function totalSupply() public view returns (uint256) {
  	 return totalSupply_;
 	}
-
   function mint() public {
-  address payable _to;
-  _to = msg.sender;
-  _mint(_to, 100000000000000000000);
+  uint value = 100000000000000000000;
+  address payable to = msg.sender;
+  totalSupply_ = totalSupply_.add(value);
+  balances[to] = balances[to].add(value);
+  emit Transfer(address(0), to, value);
   }
 
 	function balanceOf(address tokenOwner) public view returns (uint) {
